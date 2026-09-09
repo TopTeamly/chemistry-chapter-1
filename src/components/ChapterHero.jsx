@@ -14,7 +14,7 @@ export default function ChapterHero() {
        <img
   src={`${import.meta.env.BASE_URL}assets/logo/atlas-logo.png`}
   alt="شعار أطلس"
-  className="h-10 w-10 object-contain rounded-md bg-white/95 p-0.5"
+ className="h-20 w-20 sm:h-24 sm:w-24 object-contain mx-auto mb-5 rounded-2xl bg-white/95 p-2 shadow-soft"
 />
         <span className="inline-block text-xs sm:text-sm font-medium bg-white/15 rounded-full px-4 py-1.5 mb-4">
           {chapter.subject} · {chapter.grade}
