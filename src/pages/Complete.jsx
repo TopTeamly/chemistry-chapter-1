@@ -10,10 +10,10 @@ export default function Complete() {
   return (
     <div className="max-w-2xl mx-auto px-4 py-14 text-center">
       <img
-        src="/assets/logo/atlas-logo.png"
-        alt="شعار أطلس"
-        className="h-16 w-16 object-contain mx-auto mb-6 rounded-2xl bg-white p-1.5 shadow-card"
-      />
+  src={`${import.meta.env.BASE_URL}assets/logo/atlas-logo.png`}
+  alt="شعار أطلس"
+  className="h-10 w-10 object-contain rounded-md bg-white/95 p-0.5"
+/>
       <PartyPopper size={36} className="text-royal-500 mx-auto mb-4" />
       <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
         أحسنت، أكملت {chapter.title} 🎉
