@@ -6,6 +6,15 @@ import chapter from '../data/chemistry/chapter-1/chapter.js'
 export default function Home() {
   return (
     <div>
+      {/* تم وضع الصورة هنا بالداخل في المكان الصحيح برمجياً */}
+      <div className="flex justify-center my-4">
+        <img 
+          src={`${import.meta.env.BASE_URL}assets/logo/atlas-logo.png`} 
+          alt="شعار أطلس" 
+          className="w-20 h-20 object-contain"
+        />
+      </div>
+
       <ChapterHero />
 
       <div className="max-w-5xl mx-auto px-4 py-10 space-y-8">
