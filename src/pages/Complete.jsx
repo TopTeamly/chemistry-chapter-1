@@ -12,7 +12,7 @@ export default function Complete() {
       <img
   src={`${import.meta.env.BASE_URL}assets/logo/atlas-logo.png`}
   alt="شعار أطلس"
-  className="h-10 w-10 object-contain rounded-md bg-white/95 p-0.5"
+  className="h-16 w-16 object-contain mx-auto mb-6 rounded-2xl bg-white p-1.5 shadow-card"
 />
       <PartyPopper size={36} className="text-royal-500 mx-auto mb-4" />
       <h1 className="text-2xl sm:text-3xl font-bold text-navy-900 mb-2">
