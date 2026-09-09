@@ -21,11 +21,11 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-between h-16 gap-3">
           <Link to="/" className="flex items-center gap-2 shrink-0" onClick={() => setMenuOpen(false)}>
-            <img
-              src="/assets/logo/atlas-logo.png"
-              alt="شعار أطلس"
-              className="h-10 w-10 object-contain rounded-md bg-white/95 p-0.5"
-            />
+           <img
+  src={`${import.meta.env.BASE_URL}assets/logo/atlas-logo.png`}
+  alt="شعار أطلس"
+  className="h-10 w-10 object-contain rounded-md bg-white/95 p-0.5"
+/>
             <span className="flex flex-col leading-tight">
               <span className="font-bold text-base">أطلس</span>
               <span className="text-[11px] text-sky-200">{chapter.subject} · {chapter.title}</span>
