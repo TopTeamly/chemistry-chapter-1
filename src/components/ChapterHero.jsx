@@ -11,11 +11,11 @@ export default function ChapterHero() {
   return (
     <section className="relative overflow-hidden bg-gradient-to-l from-navy-950 via-navy-900 to-royal-600 text-white">
       <div className="max-w-5xl mx-auto px-4 py-14 sm:py-20 text-center relative z-10">
-        <img
-          src="/assets/logo/atlas-logo.png"
-          alt="شعار أطلس"
-          className="h-20 w-20 sm:h-24 sm:w-24 object-contain mx-auto mb-5 rounded-2xl bg-white/95 p-2 shadow-soft"
-        />
+       <img
+  src={`${import.meta.env.BASE_URL}assets/logo/atlas-logo.png`}
+  alt="شعار أطلس"
+  className="h-10 w-10 object-contain rounded-md bg-white/95 p-0.5"
+/>
         <span className="inline-block text-xs sm:text-sm font-medium bg-white/15 rounded-full px-4 py-1.5 mb-4">
           {chapter.subject} · {chapter.grade}
         </span>
